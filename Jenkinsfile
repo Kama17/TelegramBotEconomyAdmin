@@ -11,7 +11,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Checkout the latest code from GitHub to Jenkins workspace
-                git url: 'https://github.com/yourusername/your-repo.git', branch: 'master'
+                git url: 'https://github.com/yourusername/your-repo.git', branch: 'main'
             }
         }
 
