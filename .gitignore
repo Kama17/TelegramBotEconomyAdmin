@@ -1,0 +1,10 @@
+__pycache__/
+bot/__pycache__/
+config/__pycache__/
+db_handler/__pycache__/
+logger_handler/__pycache__/
+Enrollment Renewals.csv
+venv/
+logs/
+db/
+bot.session
