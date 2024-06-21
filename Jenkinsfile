@@ -1,12 +1,12 @@
 pipeline {
     agent any
 
-   environment {
+    environment {
         REMOTE_USER = 'kama'
         REMOTE_HOST = '192.168.1.175'
         PROJECT_DIR = '/home/kama/TelegramBotEconomyAdmin'
     }
-    
+
     stages {
         stage('Checkout') {
             steps {
@@ -15,7 +15,7 @@ pipeline {
             }
         }
 
-        }
+        // Add additional stages as needed
     }
 
     post {
